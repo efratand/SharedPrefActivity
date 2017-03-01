@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="Display welcome ?"
+        android:key="display_welcome" />
+    <EditTextPreference
+        android:defaultValue="blue"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Background color"
+        android:key="background_color" />
+</PreferenceScreen>
